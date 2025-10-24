@@ -17,29 +17,17 @@ You can check if it's installed with this commands:
     $> npm --version
 
 
-**Make sure you have gulp installed on your computer**
-
-    $> npm install --global gulp-cli
-
-*Now you a ready to start using the project.*
-
-
 ## How to use the Repository
 
 
 **1st Step:** Make sure you have all needed modules installed with the following command:
 
-        $> npm install
+    $> npm install
 
-**2nd Step:** Use the following task to start gulp compiler:
+**2nd Step:** Use one of the following scripts to start developing or build your project:
 
-        $> gulp
-
-Additionally you can use one of the following tasks:
-
-| Gulp Tasks        | Purpose                               |
-| ----------------- | ------------------------------------- |
-| *$> gulp style*   | Compile the styles only once          |
-| *$> gulp clean*   | Clean "1-dist" folder compiled files  |
-| *$> gulp watch*   | Starts the build / watch series of gulp, which will keep waiting and compiling the files every time you save.                |
-| *$> gulp*         | Same as previous line                 |
+| NPM Script          | Purpose                                                                 |
+| ------------------- | ----------------------------------------------------------------------- |
+| `npm run dev`       | Starts the Vite development server with Hot Module Replacement (HMR).   |
+| `npm run build`     | Compiles and bundles your assets for production into the `1-dist` folder. |
+| `npm run preview`   | Serves the production build locally to preview it.                      |

@@ -4,11 +4,9 @@
   "description": "Package for Boilerplate Projects with Rocket UI",
   "main": "index.js",
   "scripts": {
-    "gulp": "gulp",
-    "clean": "gulp clean",
-    "style": "gulp style",
-    "watch": "gulp watch",
-    "prepare": "husky install"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -17,24 +15,14 @@
   "author": "Mediaweb",
   "license": "ISC",
   "devDependencies": {
-    "@commitlint/cli": "^17.0.0",
-    "@commitlint/config-conventional": "^17.0.0",
-    "autoprefixer": "^9.8.6",
-    "browser-sync": "^2.26.12",
-    "del": "^6.0.0",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^8.0.0",
-    "gulp-rename": "^2.0.0",
-    "gulp-sass": "^5.1.0",
-    "gulp-sourcemaps": "^3.0.0",
-    "gulp-uglify": "^3.0.2",
-    "husky": "^8.0.1",
-    "postcss": "^8.4.17",
-    "postcss-sorting": "^7.0.1",
-    "node-sass": "^8.0.0"
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "postcss-sort-media-queries": "^5.2.0",
+    "sass": "^1.69.5",
+    "vite": "^7.1.11"
   },
   "browserslist": [
-      "last 3 version",
-      "> 2%"
+    "last 3 versions",
+    "> 2%"
   ]
 }
