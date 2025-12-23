@@ -30,7 +30,7 @@ You can check if it's installed with this commands:
 | NPM Script | Purpose |
 | ------------------- | ----------------------------------------------------------------------- |
 | `pnpm dev` | Starts the Vite development server with Hot Module Replacement (HMR). |
-| `pnpm dev:watch` | Build the styles and watch for changes to rebuild |
+| `pnpm watch` | Build the styles and watch for changes to rebuild |
 | `pnpm build` | Compiles and bundles your assets for production into the `1-dist` folder. |
-| `pnpm build:styleguide` | Compiles and bundles your assets for production into the `1-dist-styleguide` folder. |
 | `pnpm preview` | Serves the production build locally to preview it. |
+| `pnpm prepare` | Configure husky plugin to review and lint commit messages. |
