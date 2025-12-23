@@ -1,7 +1,18 @@
-/.husky/_/
+# Dependencies
 node_modules/
 
+# Build output
+1-dist/
+
+# Husky internal
+.husky/_/
+
+# OS / editor
+.DS_Store
+
+# Local / generated config (only if it’s truly local)
 icons-config.json
+
+# Lockfiles (choose ONE package manager)
 package-lock.json
-/1-dist/css/
 pnpm-lock.yaml
